@@ -1,0 +1,27 @@
+{
+  "name": "reincarnation-sugarcube",
+  "version": "1.0.0",
+  "description": "Twine game entitled Reincarnation: Second Chance",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack && tweego -o ./dist/index.html ./src/sources",
+    "dev": "concurrently --kill-others \"webpack watch\" \"tweego -w -o ./dist/index.html ./src/sources\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "babel-loader": "^8.2.5",
+    "concurrently": "^7.1.0",
+    "css-loader": "^6.7.1",
+    "mini-css-extract-plugin": "^2.6.0",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}

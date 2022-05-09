@@ -1,0 +1,16 @@
+:: StoryData
+{
+    "ifid": "F23D1F19-9649-438F-99FC-3139093BF493",
+    "format": "SugarCube",
+	"format-version": "2.36.1",
+	"start": "Start"
+}
+
+:: StoryTitle {"position":"25,150"}
+Your Game Title
+
+:: Start {"position":"150,25"}
+<div>
+    <p>Welcome to <b>Your Game Title</b></p>
+</div>
+
